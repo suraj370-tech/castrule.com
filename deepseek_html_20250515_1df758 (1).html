@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Automation Profits - $10k/Month with AI</title>
+    <style>
+        :root {
+            --primary: #6e48aa;
+            --secondary: #9d50bb;
+            --dark: #1e1e2c;
+            --light: #f5f5fa;
+            --success: #4CAF50;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #FF6B00;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 50px 0;
+        }
+        .feature {
+            flex: 1;
+            min-width: 300px;
+            margin: 15px;
+            padding: 25px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+        #deepseek-chat {
+            min-height: 400px;
+            margin: 40px 0;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+        }
+        .testimonial {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        .monetization-banner {
+            background: #FFF8E1;
+            border-left: 5px solid #FFC107;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Turn AI Into Your 24/7 Money Machine</h1>
+            <p>Join 12,537 students who used <strong>DeepSeek + Zapier</strong> to land $5k/month clients</p>
+            <a href="#register" class="cta-button">Get Free Access →</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="features">
+            <div class="features">
+                <div class="feature">
+                    <h3>🤖 No Coding Needed</h3>
+                    <p>Zapier + AI workflows anyone can setup in 1 hour</p>
+                </div>
+                <div class="feature">
+                    <h3>💵 High-Ticket Clients</h3>
+                    <p>Close $3k/month retainers with local businesses</p>
+                </div>
+                <div class="feature">
+                    <h3>🛠️ Free Tools Only</h3>
+                    <p>Start with zero upfront costs</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DeepSeek AI Chat Widget -->
+        <section id="ai-demo">
+            <h2>Try Our AI Assistant</h2>
+            <p>Ask anything about AI automation:</p>
+            <div id="deepseek-chat"></div>
+            <script src="https://platform.deepseek.com/embed.js" data-api-key="ds-sk-1234567890abcdef1234567890abcdef"></script>
+        </section>
+
+        <!-- Monetization: Course Upsell -->
+        <section id="course">
+            <div class="monetization-banner">
+                <h2>🚀 Premium AI Automation Course</h2>
+                <p>Upgrade to our <strong>$297 course</strong> and get:</p>
+                <ul>
+                    <li>50+ Done-For-You AI Workflows</li>
+                    <li>Client Contract Templates</li>
+                    <li>Private Discord Community</li>
+                </ul>
+                <a href="https://gumroad.com/l/aiautomationcourse" class="cta-button">Enroll Now</a>
+            </div>
+        </section>
+
+        <!-- Affiliate Monetization -->
+        <section id="tools">
+            <h2>Recommended Tools</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3><a href="https://deepseek.com/ref=aiautomationprofits" rel="nofollow">DeepSeek AI</a></h3>
+                    <p>Best AI for business automation (20% off with our link)</p>
+                </div>
+                <div class="feature">
+                    <h3><a href="https://zapier.com/ref/aiautomationprofits" rel="nofollow">Zapier</a></h3>
+                    <p>Connect apps without code (Free trial available)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lead Capture -->
+        <section id="register">
+            <h2>Get Your Free AI Automation Kit</h2>
+            <form id="lead-form" action="https://hooks.zapier.com/hooks/catch/1234567/abcdefg" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit" class="cta-button">Send My Free Kit</button>
+                <p><small>We'll also send you premium AI tips. Unsubscribe anytime.</small></p>
+            </form>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials">
+            <h2>Success Stories</h2>
+            <div class="testimonial">
+                <p>"Used DeepSeek to automate a dental clinic's appointment system. Made $8,000 in 3 weeks!"</p>
+                <p><strong>- Sarah K., Freelancer</strong></p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 AIAutomationProfits.com</p>
+            <p><a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms</a></p>
+            <p><small>Disclaimer: Results not typical. Requires effort.</small></p>
+        </div>
+    </footer>
+
+    <!-- Tracking Script -->
+    <script>
+        // Form submission handler
+        document.getElementById('lead-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            fetch(this.action, {
+                method: 'POST',
+                body: new FormData(this)
+            }).then(() => {
+                window.location.href = 'https://aiautomationprofits.com/thank-you';
+            });
+        });
+
+        // Affiliate click tracking
+        document.querySelectorAll('a[rel="nofollow"]').forEach(link => {
+            link.addEventListener('click', function() {
+                fetch('https://aiautomationprofits.com/api/track', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        url: this.href,
+                        referrer: document.referrer
+                    })
+                });
+            });
+        });
+    </script>
+</body>
+</html>
